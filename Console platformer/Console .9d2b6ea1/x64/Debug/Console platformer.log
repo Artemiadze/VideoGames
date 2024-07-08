@@ -1,0 +1,6 @@
+﻿  Console platformer.cpp
+K:\Super Mario\Console platformer\Console platformer.cpp(78,28): warning C4305: =: усечение из "double" в "float"
+K:\Super Mario\Console platformer\Console platformer.cpp(92,27): warning C4305: +=: усечение из "double" в "float"
+K:\Super Mario\Console platformer\Console platformer.cpp(108,68): warning C4305: =: усечение из "double" в "float"
+K:\Super Mario\Console platformer\Console platformer.cpp(262,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Console platformer.vcxproj -> K:\Super Mario\Console platformer\x64\Debug\Console platformer.exe
