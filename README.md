@@ -6,15 +6,20 @@
 [Язык Си с нуля - Урок 29 - Пишем простую игру платформер](https://www.youtube.com/watch?v=7sTPrktLLBo&list=PLBOPkQsFLCR2DWRY74L03FmbRtz_Yy73_&index=30),  
 [Язык Си с нуля - Урок 33 - Пишем игру платформер, добавляем врагов :-)](https://www.youtube.com/watch?v=8QDgZ3GNlt8&list=PLBOPkQsFLCR2DWRY74L03FmbRtz_Yy73_&index=34).
 
+### Скриншоты игры
+Скрины | Скрины
+:--------------:|:--------------:
+![screenshot: Main menu](./docs/console_mario/Main_Menu.jpg) |  ![screenshot: screen 1](./docs/console_mario/screen_1.jpg)
+![screenshot: screen 2](./docs/console_mario/screen_2.jpg) | ![screenshot: screen 3](./docs/console_mario/screen_3.jpg)
+
 ### Как играть
 - Управление:  
 'Space' - прыжок  
 'A' - влево  
 'D' - вправо  
-'Q' - поставить на паузу  
-'E' - пауза
-'Любая другая клавиша' - продолжить игру
+'E' - поставить на паузу  
+'Q' - продолжить игру
 'Esc' - выйти из игры  
 
 ### Технические подробности
-В заголовочном файле Map.h я сосредоточил все игроввые функции
+В заголовочном файле Map.h я сосредоточил все игровые функции
