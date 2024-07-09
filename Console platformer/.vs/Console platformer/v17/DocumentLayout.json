@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{9D2B6EA1-513C-4FBD-9684-D242E6DBA46C}|Console platformer.vcxproj|K:\\Super Mario\\Console platformer\\Console platformer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9D2B6EA1-513C-4FBD-9684-D242E6DBA46C}|Console platformer.vcxproj|solutionrelative:Console platformer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2B6EA1-513C-4FBD-9684-D242E6DBA46C}|Console platformer.vcxproj|K:\\Super Mario\\Console platformer\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D2B6EA1-513C-4FBD-9684-D242E6DBA46C}|Console platformer.vcxproj|solutionrelative:Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2B6EA1-513C-4FBD-9684-D242E6DBA46C}|Console platformer.vcxproj|K:\\Super Mario\\Console platformer\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D2B6EA1-513C-4FBD-9684-D242E6DBA46C}|Console platformer.vcxproj|solutionrelative:Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Map.cpp",
+              "DocumentMoniker": "K:\\Super Mario\\Console platformer\\Map.cpp",
+              "RelativeDocumentMoniker": "Map.cpp",
+              "ToolTip": "K:\\Super Mario\\Console platformer\\Map.cpp",
+              "RelativeToolTip": "Map.cpp",
+              "ViewState": "AQIAACkAAAAAAAAAAAAYwDcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-08T19:01:53.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Map.h",
+              "DocumentMoniker": "K:\\Super Mario\\Console platformer\\Map.h",
+              "RelativeDocumentMoniker": "Map.h",
+              "ToolTip": "K:\\Super Mario\\Console platformer\\Map.h",
+              "RelativeToolTip": "Map.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-08T16:17:54.287Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "Console platformer.cpp",
               "ToolTip": "K:\\Super Mario\\Console platformer\\Console platformer.cpp",
               "RelativeToolTip": "Console platformer.cpp",
-              "ViewState": "AQIAAMwBAAAAAAAAAAAcwAYCAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-04T15:29:13.187Z",
               "EditorCaption": ""
