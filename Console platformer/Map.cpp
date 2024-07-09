@@ -298,11 +298,11 @@ void CreateLevel(int lvl);
 //change . to ->
 void InitObject(TObject* obj, float xPos, float yPos, float oWidth, float oHeight, char oType) {
     SetObjectPos(obj, xPos, yPos);
-    (*obj).width = oWidth; //obj->width
-    (*obj).height = oHeight;
-    (*obj).vertSpeed = 0;
-    (*obj).cType = oType;
-    (*obj).HorizionSpeed = 0.2;
+    obj->width = oWidth; //obj->width
+    obj->height = oHeight;
+    obj->vertSpeed = 0;
+    obj->cType = oType;
+    obj->HorizionSpeed = 0.2;
 }
 
 

@@ -1,9 +1,6 @@
-﻿  Console platformer.cpp
-  Map.cpp
-  Создание кода...
-K:\Super Mario\Console platformer\Map.cpp(305,28): warning C4305: =: усечение из "double" в "float"
+﻿  Map.cpp
+K:\Super Mario\Console platformer\Map.cpp(305,26): warning C4305: =: усечение из "double" в "float"
 K:\Super Mario\Console platformer\Map.cpp(320,27): warning C4305: +=: усечение из "double" в "float"
 K:\Super Mario\Console platformer\Map.cpp(336,68): warning C4305: =: усечение из "double" в "float"
 K:\Super Mario\Console platformer\Map.cpp(465,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  LINK : не найден или не выполнена сборка K:\Super Mario\Console platformer\x64\Debug\Console platformer.exe при последней инкрементной компоновке; выполняется полная компоновка
   Console platformer.vcxproj -> K:\Super Mario\Console platformer\x64\Debug\Console platformer.exe
