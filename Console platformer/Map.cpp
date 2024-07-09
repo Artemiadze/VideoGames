@@ -45,6 +45,209 @@ void PrintMap() {
 }
 
 
+void PrintMainMenu() {
+    for (int i = 0; i < mapWidth; i++)
+    {
+        map[0][i] = '#';
+        map[mapHeight - 1][i] = '#';
+    }
+    for (int j = 1; j < mapHeight - 1; j++)
+    {
+        map[j][0] = '#';
+        map[j][mapWidth-1] = '#';
+    }
+    //буквым в менюшке
+    map[3][20] = (char)219;
+    map[4][20] = (char)219;
+    map[5][20] = (char)219;
+    map[7][20] = (char)219;
+    map[9][20] = (char)219;
+    map[10][20] = (char)219;
+    map[11][20] = (char)219;
+    map[12][20] = (char)219;
+    map[13][20] = (char)219;
+
+    map[3][21] = (char)219;
+    map[4][21] = (char)219;
+    map[5][21] = (char)219;
+    map[7][21] = (char)219;
+    map[10][21] = (char)219;
+
+    map[3][22] = (char)219;
+    map[5][22] = (char)219;
+    map[7][22] = (char)219;
+    map[11][22] = (char)219;
+
+    map[3][23] = (char)219;
+    map[5][23] = (char)219;
+    map[6][23] = (char)219;
+    map[7][23] = (char)219;
+    map[10][23] = (char)219;
+
+    map[3][24] = (char)219;
+    map[5][24] = (char)219;
+    map[6][24] = (char)219;
+    map[7][24] = (char)219;
+    map[9][24] = (char)219;
+    map[10][24] = (char)219;
+    map[11][24] = (char)219;
+    map[12][24] = (char)219;
+    map[13][24] = (char)219;
+
+    map[3][26] = (char)219;
+    map[4][26] = (char)219;
+    map[5][26] = (char)219;
+    map[6][26] = (char)219;
+    map[10][26] = (char)219;
+    map[11][26] = (char)219;
+    map[12][26] = (char)219;
+    map[13][26] = (char)219;
+
+    map[7][27] = (char)219;
+    map[9][27] = (char)219;
+    map[11][27] = (char)219;
+
+    map[7][28] = (char)219;
+    map[9][28] = (char)219;
+    map[11][28] = (char)219;
+
+    map[7][29] = (char)219;
+    map[9][29] = (char)219;
+    map[11][29] = (char)219;
+
+    map[3][30] = (char)219;
+    map[4][30] = (char)219;
+    map[5][30] = (char)219;
+    map[6][30] = (char)219;
+    map[10][30] = (char)219;
+    map[11][30] = (char)219;
+    map[12][30] = (char)219;
+    map[13][30] = (char)219;
+
+    map[3][32] = (char)219;
+    map[4][32] = (char)219;
+    map[5][32] = (char)219;
+    map[6][32] = (char)219;
+    map[7][32] = (char)219;
+    map[9][32] = (char)219;
+    map[10][32] = (char)219;
+    map[11][32] = (char)219;
+    map[12][32] = (char)219;
+    map[13][32] = (char)219;
+
+    map[3][33] = (char)219;
+    map[5][33] = (char)219;
+    map[9][33] = (char)219;
+    map[11][33] = (char)219;
+
+    map[3][34] = (char)219;
+    map[5][34] = (char)219;
+    map[9][34] = (char)219;
+    map[11][34] = (char)219;
+    map[12][34] = (char)219;
+
+    map[4][35] = (char)219;
+    map[10][35] = (char)219;
+    map[12][35] = (char)219;
+    map[13][35] = (char)219;
+
+    map[3][37] = (char)219;
+    map[4][37] = (char)219;
+    map[5][37] = (char)219;
+    map[6][37] = (char)219;
+    map[7][37] = (char)219;
+    map[9][37] = (char)219;
+    map[13][37] = (char)219;
+
+    map[3][38] = (char)219;
+    map[5][38] = (char)219;
+    map[7][38] = (char)219;
+    map[9][38] = (char)219;
+    map[10][38] = (char)219;
+    map[11][38] = (char)219;
+    map[12][38] = (char)219;
+    map[13][38] = (char)219;
+
+    map[3][39] = (char)219;
+    map[5][39] = (char)219;
+    map[7][39] = (char)219;
+    map[9][39] = (char)219;
+    map[13][39] = (char)219;
+
+    map[3][41] = (char)219;
+    map[4][41] = (char)219;
+    map[5][41] = (char)219;
+    map[6][41] = (char)219;
+    map[7][41] = (char)219;
+    map[10][41] = (char)219;
+    map[11][41] = (char)219;
+    map[12][41] = (char)219;
+
+    map[3][42] = (char)219;
+    map[5][42] = (char)219;
+    map[9][42] = (char)219;
+    map[13][42] = (char)219;
+
+    map[3][43] = (char)219;
+    map[5][43] = (char)219;
+    map[6][43] = (char)219;
+    map[9][43] = (char)219;
+    map[13][43] = (char)219;
+
+    map[4][44] = (char)219;
+    map[6][44] = (char)219;
+    map[7][44] = (char)219;
+    map[10][44] = (char)219;
+    map[11][44] = (char)219;
+    map[12][44] = (char)219;
+
+    map[17][21] = 'P';
+    map[17][22] = 'r';
+    map[17][23] = 'e';
+    map[17][24] = 's';
+    map[17][25] = 's';
+    map[17][26] = ' ';
+    map[17][27] = '"';
+    map[17][28] = 'S';
+    map[17][29] = 'p';
+    map[17][30] = 'a';
+    map[17][31] = 'c';
+    map[17][32] = 'e';
+    map[17][33] = '"';
+    map[17][34] = ' ';
+    map[17][35] = 't';
+    map[17][36] = 'o';
+    map[17][37] = ' ';
+    map[17][38] = 's';
+    map[17][39] = 't';
+    map[17][40] = 'a';
+    map[17][41] = 'r';
+    map[17][42] = 't';
+
+    map[19][21] = 'P';
+    map[19][22] = 'r';
+    map[19][23] = 'e';
+    map[19][24] = 's';
+    map[19][25] = 's';
+    map[19][26] = ' ';
+    map[19][27] = '"';
+    map[19][28] = 'E';
+    map[19][29] = 'S';
+    map[19][30] = 'C';
+    map[19][31] = '"';
+    map[19][32] = ' ';
+    map[19][33] = 't';
+    map[19][34] = 'o';
+    map[19][35] = ' ';
+    map[19][36] = 'e';
+    map[19][37] = 'x';
+    map[19][38] = 'i';
+    map[19][39] = 't';
+
+    PrintMap();
+    system("Pause");
+}
+
 //Задаёт позицию персонажа
 void SetObjectPos(TObject* obj, float xPos, float yPos) {
     //меняем значение входной переменной obj, поэтому используем указатель

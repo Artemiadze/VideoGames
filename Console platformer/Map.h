@@ -26,6 +26,7 @@ extern int score;
 
 void ClearMap();
 void PrintMap();
+void PrintMainMenu();
 void SetCur(int x, int y);
 void SetObjectPos(TObject* obj, float xPos, float yPos);
 

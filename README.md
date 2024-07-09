@@ -1,6 +1,20 @@
 # VideoGames
 
-Information
-========
-My games are stored on this repository:
- * "Console platformer" - It is console version Super Mario without a graphics and characters from games are console symbols.
+### Общее описание
+ "Console platformer" - это консольная версия Super Mario, вместо графики используются различные символы
+ Игра сделана на основе видео с ютуб канала Begin End. Вот *ссылки на видео*:  
+[Язык Си с нуля - Урок 29 - Пишем простую игру платформер](https://www.youtube.com/watch?v=7sTPrktLLBo&list=PLBOPkQsFLCR2DWRY74L03FmbRtz_Yy73_&index=30),  
+[Язык Си с нуля - Урок 33 - Пишем игру платформер, добавляем врагов :-)](https://www.youtube.com/watch?v=8QDgZ3GNlt8&list=PLBOPkQsFLCR2DWRY74L03FmbRtz_Yy73_&index=34).
+
+### Как играть
+- Управление:  
+'Space' - прыжок  
+'A' - влево  
+'D' - вправо  
+'Q' - поставить на паузу  
+'E' - пауза
+'Любая другая клавиша' - продолжить игру
+'Esc' - выйти из игры  
+
+### Технические подробности
+В заголовочном файле Map.h я сосредоточил все игроввые функции
