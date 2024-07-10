@@ -291,14 +291,14 @@ TObject* getNewMoving() {
     return moving_block + Moving_block_Length - 1; //функция вернёт указатель на элемент массива
 }
 
+
 void CreateLevel(int lvl);
 
 
 //инициализирует данные обьекта
-//change . to ->
 void InitObject(TObject* obj, float xPos, float yPos, float oWidth, float oHeight, char oType) {
     SetObjectPos(obj, xPos, yPos);
-    obj->width = oWidth; //obj->width
+    obj->width = oWidth;
     obj->height = oHeight;
     obj->vertSpeed = 0;
     obj->cType = oType;
